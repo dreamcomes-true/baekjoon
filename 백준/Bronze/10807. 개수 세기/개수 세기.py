@@ -1,5 +1,5 @@
 n = int(input())
-numbers = list(map(int, input().split(' ')))
-key = int(input())
-
-print(numbers.count(key))
+nums = list(map(int, input().split()))
+v = int(input())
+res = nums.count(v)
+print(res)
